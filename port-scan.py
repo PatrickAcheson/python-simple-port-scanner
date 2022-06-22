@@ -3,7 +3,7 @@ import socket
 import sys
 import threading
 from queue import Queue
-
+#https://github.com/PatrickAcheson
 
 def scanner(port, target_address):
     try:
