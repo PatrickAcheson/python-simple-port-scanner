@@ -72,4 +72,4 @@ if __name__== "__main__":
         thread.join()
     print("----------------------------------")
     print(f"hidden: {max(port_list) - len(services) + 1} closed tcp ports")
-    print(f"scan complete: 1 IP address (1 host up)")
+    print(f"scan complete: 1 IP address ({target_address})")
