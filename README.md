@@ -1,7 +1,8 @@
 # python-simple-port-scanner
 **USAGE**
-python3 port-scan.py [flag] {target address} [threads]
-             OPTIONS:
+`python3 port-scan.py [flag] {target address} [threads]`
+
+OPTIONS:
              **-R**: runs default mode using TCP socket to attempt connection to each port in the scan
              **-H**: Displays a help menu
 
@@ -11,4 +12,5 @@ This process would have been far too slow without the use of threading and queue
 NOTE: I am aware any IDS, IPS, or firewall will drop these requests but this project is for learning and experimenting with sockets and threading processes.
 
 
-![image](https://user-images.githubusercontent.com/90014630/175179778-caadbe13-c3a9-4dbf-a363-e999925836b7.png)
+
+![ezgif-2-c4cbce8ace](https://user-images.githubusercontent.com/90014630/175423311-77491b52-bda6-402d-80fe-55b8e59e0df0.gif)
