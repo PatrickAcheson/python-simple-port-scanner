@@ -54,7 +54,7 @@ if __name__== "__main__":
 
     #Printing scan header
     print("----------------------------------")
-    print(f"scan report for {target_address}    -bng-")
+    print(f"scan report for {target_address}  -bng-")
     print("----------------------------------")
     print("PORT      STATE      SERVICE")
 
@@ -78,4 +78,4 @@ if __name__== "__main__":
         thread.join()
     print("----------------------------------")
     print(f"hidden: {max(port_list) - len(services) + 1} closed tcp ports")
-    print(f"scan complete: on address ({Fore.BLACK}{target_address}{Style.RESET_ALL})")
+    print(f"scan complete: on address ({target_address})")
