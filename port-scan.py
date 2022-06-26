@@ -62,8 +62,7 @@ if __name__== "__main__":
     thread_list = []
     queue = Queue()
     services = {}
-    #To edit amount of a ports scanned edit this ~
-    ports_var = 1024
+    ports_var = 1024 #To edit amount of a ports scanned edit this
 
     port_list = range(1, ports_var)
     process(target_address, ports_open)
